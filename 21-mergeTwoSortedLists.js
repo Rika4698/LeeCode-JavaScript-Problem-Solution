@@ -37,6 +37,7 @@ var mergeTwoLists = function(list1, list2) {
     }
     return pre.next;
 };
+
 function createLinkedList(arr) {
     let dummy = new ListNode();
     let current = dummy;
