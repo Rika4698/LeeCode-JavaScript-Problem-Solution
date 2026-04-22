@@ -4,8 +4,8 @@
  */
 var isEmpty = function(obj) {
     if(Array.isArray(obj)){
-        const result = obj.length === 0;
-        return result;
+        const item = obj.length === 0;
+        return item;
     } else {
         const result = Object.keys(obj).length === 0;
         return result;
