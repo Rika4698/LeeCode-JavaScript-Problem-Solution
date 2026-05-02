@@ -9,6 +9,7 @@ JOIN (
     FROM Employee
     GROUP BY departmentId
 ) m 
+
 ON e.departmentId = m.departmentId
 AND e.salary = m.max_salary
 JOIN Department d
