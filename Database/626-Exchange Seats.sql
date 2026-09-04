@@ -9,3 +9,12 @@ SELECT
   END AS id, student
 FROM Seat
 ORDER BY id;      
+
+
+-- CASE
+--     WHEN condition
+--         THEN result
+--     WHEN condition
+--         THEN result
+--     ELSE result
+-- END
