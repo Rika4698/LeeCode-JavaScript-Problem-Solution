@@ -10,3 +10,18 @@ FROM (
 ) AS friend
 GROUP BY id 
 ORDER BY num DESC
+
+
+-- দুই column
+--    ↓
+-- UNION ALL
+--    ↓
+-- এক column
+--    ↓
+-- GROUP BY
+--    ↓
+-- COUNT
+--    ↓
+-- ORDER BY DESC
+--    ↓
+-- LIMIT 1
