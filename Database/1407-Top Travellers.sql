@@ -7,3 +7,6 @@ GROUP BY u.id, u.name
 ORDER BY travelled_distance DESC, u.name ASC;
 
 
+-- COALESCE() basically means:
+
+-- If the first value is NULL, use the second value.
