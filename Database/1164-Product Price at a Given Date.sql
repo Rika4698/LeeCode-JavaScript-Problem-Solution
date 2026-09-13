@@ -15,3 +15,14 @@ FROM (
     SELECT DISTINCT product_id
     FROM Products
 ) AS p1;
+
+-- COALESCE() means:
+
+-- If the first value is NULL, use the second value.
+
+-- Examples:
+
+-- COALESCE(35, 10)
+-- → 35
+
+-- because 35 isn't NULL.
