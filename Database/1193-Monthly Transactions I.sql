@@ -15,3 +15,26 @@ SELECT TO_CHAR(trans_date, 'YYYY-MM') AS month,
 
     FROM Transactions
     GROUP BY TO_CHAR(trans_date, 'YYYY-MM'), country;
+
+
+-- TO_CHAR() converts a date into a formatted text value.
+
+-- Basic idea:
+
+-- TO_CHAR(date, format)
+
+-- For example:
+
+-- TO_CHAR(DATE '2019-01-07', 'YYYY-MM')
+
+-- returns:
+
+-- 2019-01
+
+-- COUNT(*) counts every row.  
+-- COUNT(expression) counts non-NULL values.
+
+-- CASE
+--     WHEN condition THEN result
+--     ELSE result
+-- END
