@@ -14,3 +14,8 @@ ON s.employee_id = e.employee_id
 WHERE e.employee_id IS NULL
 
 ORDER BY employee_id;
+
+
+-- IS NULL	কোনো value NULL কি না পরীক্ষা করে
+
+-- UNION	দুই query-এর result একত্র করে, duplicate বাদ দেয়
