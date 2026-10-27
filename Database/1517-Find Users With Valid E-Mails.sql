@@ -17,3 +17,14 @@ WHERE mail ~ '^[A-Za-z][A-Za-z0-9_.-]*@leetcode[.]com$';
 
 
 -- * মানে আগের character set থেকে শূন্য বা তার বেশি character থাকতে পারে।
+
+
+-- [.] Regex-এ square brackets-এর বাইরে . সাধারণত যেকোনো একটি character বোঝায়। কিন্তু [.] ব্যবহার করলে এটি আসল period character-কে বোঝায়।
+
+-- com$ — email-এর শেষ
+-- com$
+
+
+-- $ email string-এর শেষ নির্দেশ করে।
+
+-- তাই @leetcode.com-এর পরে অতিরিক্ত character থাকলে পুরো pattern match করবে না।
