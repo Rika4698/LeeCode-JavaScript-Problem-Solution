@@ -14,3 +14,6 @@ WHERE mail ~ '^[A-Za-z][A-Za-z0-9_.-]*@leetcode[.]com$';
 --      Yes      No
 --       |       |
 --     Return   Skip
+
+
+-- * মানে আগের character set থেকে শূন্য বা তার বেশি character থাকতে পারে।
