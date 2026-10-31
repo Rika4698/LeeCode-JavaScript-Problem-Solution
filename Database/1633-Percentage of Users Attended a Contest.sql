@@ -17,3 +17,7 @@ ORDER BY  percentage DESC, contest_id ASC;
 -- এটি একটি Subquery।
 -- Subquery কী?
 -- একটি SQL query-এর ভেতরে আরেকটি SQL query থাকলে তাকে Subquery বলে।
+
+-- Formula:
+-- COUNT(user_id) * 100.0 /
+-- (SELECT COUNT(*) FROM Users)
